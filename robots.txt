@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://indrayam.com/sitemap.xml
+Sitemap: https://blog.indrayam.com/sitemap.xml

@@ -1,6 +1,6 @@
 # indrayam.com blog
 
-This repository contains the static HTML blog published at [indrayam.com](https://indrayam.com/). It is the v1 site in the wider `indrayam.com` experience, alongside the resume, Daily Diff, and docs sites. The parent [`AGENTS.md`](../AGENTS.md) describes how those sites fit together and applies to work that crosses repository boundaries.
+This repository contains the static HTML blog published at [blog.indrayam.com](https://blog.indrayam.com/). It is one of the sites in the wider `indrayam.com` experience, alongside the home page at `indrayam.com`, the resume, Daily Diff, and Cribsheets. Every blog page uses the blog nav: Home (`https://indrayam.com/`) | Blog | Archives | Categories. The parent [`AGENTS.md`](../AGENTS.md) describes how those sites fit together and applies to work that crosses repository boundaries.
 
 ## Project map
 

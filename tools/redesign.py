@@ -41,6 +41,7 @@ SITE_LINKS = [
     ("resume", "https://resume.indrayam.com/", "Resume"),
     ("dailydiff", "https://dailydiff.indrayam.com/", "Daily Diff"),
     ("cribsheets", "https://cribsheets.indrayam.com/", "Cribsheets"),
+    ("sightings", "https://sightings.indrayam.com/", "Sightings"),
     ("writings", "https://blog.indrayam.com/", "Writings"),
 ]
 

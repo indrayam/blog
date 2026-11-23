@@ -121,52 +121,50 @@ a {
 	text-decoration-color: var(--color-accent);
 }
 
-.site-nav a:focus-visible,
-.blog-subnav a:focus-visible {
+.site-nav a:focus-visible {
 	outline: 2px solid var(--color-accent);
 	outline-offset: 4px;
 }
 
-/* Blog-only second row under the site nav: the two ways into the archive. */
-.blog-subnav ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 0 10px;
-	margin: 2px 0 0;
-	padding: 0;
-	list-style: none;
+/* Blog-only sub-nav: the two ways into the archive, centered under Writings. */
+.site-header:has(.blog-subnav) {
+	padding-bottom: 1.6rem;
 }
 
-.blog-subnav li {
-	margin: 0;
-	padding: 0;
-	color: #b0a8a2;
+.site-nav li.has-subnav {
+	position: relative;
+}
+
+.site-nav ul.blog-subnav {
+	position: absolute;
+	top: calc(100% + 3px);
+	left: 50%;
+	transform: translateX(-50%);
+	flex-wrap: nowrap;
+	gap: 0 8px;
+	white-space: nowrap;
+}
+
+.site-nav .blog-subnav li {
+	color: #8a817b;
 	font-family: var(--font-nav);
 	font-size: 0.82rem;
 	font-weight: 300;
-	line-height: 1.6;
+	line-height: 1.4;
 }
 
-.blog-subnav li + li::before {
+.site-nav .blog-subnav li + li::before {
 	content: "\00b7";
-	margin-right: 10px;
+	margin-right: 8px;
 }
 
-.blog-subnav a {
-	color: var(--color-soft);
-	text-decoration: underline;
-	text-decoration-color: transparent;
+.site-nav .blog-subnav a {
+	padding: 0;
+	font-size: inherit;
+	line-height: inherit;
+	color: var(--color-text);
 	text-decoration-thickness: 2px;
-	text-underline-offset: 5px;
-	transition: text-decoration-color 0.15s ease;
-}
-
-.blog-subnav a:hover,
-.blog-subnav a:focus-visible,
-.blog-subnav a[aria-current="page"] {
-	color: #111111;
-	text-decoration-color: var(--color-accent);
+	text-underline-offset: 4px;
 }
 
 /* ── Page body ──────────────────────────────────────────────────────── */

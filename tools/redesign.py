@@ -55,7 +55,17 @@ def site_header(current, sub=None, show_sub=True):
     items = []
     for key, href, label in SITE_LINKS:
         cur = ' aria-current="page"' if key == current else ""
-        items.append(f'      <li><a href="{href}"{cur}>{label}</a></li>')
+        if key == "writings" and show_sub:
+            # The blog sub-nav sits inside the Writings item, centered under it.
+            items.append(f'      <li class="has-subnav"><a href="{href}"{cur}>{label}</a>')
+            items.append('        <ul class="blog-subnav" aria-label="Blog archive">')
+            for skey, shref, slabel in SUB_LINKS:
+                scur = ' aria-current="page"' if skey == sub else ""
+                items.append(f'          <li><a href="{shref}"{scur}>{slabel}</a></li>')
+            items.append("        </ul>")
+            items.append("      </li>")
+        else:
+            items.append(f'      <li><a href="{href}"{cur}>{label}</a></li>')
     out = [
         '<header class="site-header">',
         '  <nav class="site-nav" aria-label="Site navigation">',
@@ -63,20 +73,8 @@ def site_header(current, sub=None, show_sub=True):
         *items,
         "    </ul>",
         "  </nav>",
+        "</header>",
     ]
-    if show_sub:
-        sub_items = []
-        for key, href, label in SUB_LINKS:
-            cur = ' aria-current="page"' if key == sub else ""
-            sub_items.append(f'      <li><a href="{href}"{cur}>{label}</a></li>')
-        out += [
-            '  <nav class="blog-subnav" aria-label="Blog archive">',
-            "    <ul>",
-            *sub_items,
-            "    </ul>",
-            "  </nav>",
-        ]
-    out.append("</header>")
     return "\n".join(out)
 
 

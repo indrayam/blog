@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/our-world/001215.html" rel="bookmark" title="Permanent link to Post-Post Cold War">Post-Post Cold War</a></h2>
                                 
-                                <h3>Posted : May 12, 2006 at 11:44 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : May 12, 2006 at 11:44 am [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>&#8220;I am very pessimistic about Western Europe &#8212; and that is new,&#8221; remarked Lajos Bokros, a professor of economics at the Central European University in Budapest. Too many Western Europeans &#8220;are not competitive enough&#8221; and &#8220;do not want to implement the reforms.&#8221; Unless Europe chooses the high-growth Irish model, as opposed to the French, Italian and German models, Mr. Bokros added, &#8220;the whole European region will decline further and become insignificant and irrelevant for this global game.&#8221;
@@ -91,9 +92,10 @@ Amen.</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

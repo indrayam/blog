@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/chindia/001194.html" rel="bookmark" title="Permanent link to Nuclear India?">Nuclear India?</a></h2>
                                 
-                                <h3>Posted : March 7, 2006 at 11:05 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : March 7, 2006 at 11:05 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>India is a country that had me at hello. Call me biased, but I have a soft spot for countries of one billion people, speaking a hundred different languages and practicing a variety of religions, whose people hold regular free and fair elections and, despite massive poverty, still produce generations of doctors and engineers who help to make the world a more productive and peaceful place&#8230;So I applaud President Bush&#8217;s desire to form a deeper partnership with India. There is only one thing I would not do for that cause: endorse &#8212; in its current form &#8212; the nuclear arms deal that the Bush team just cut with New Delhi&#8230;India says it needs to keep producing nuclear material to have a more credible deterrent. I can&#8217;t judge that&#8230;&#8221;The problem the Bush administration faces in selling the nuclear deal is not, as the president has said, that &#8217;some people just don&#8217;t want to change&#8217; or that they are focused on outdated concerns,&#8221; Mr. Einhorn argued. &#8220;People are willing to change. They want to support the president&#8217;s India initiative, even modify longstanding policies. But they want to do it in a way that also serves an objective that is hardly outdated: <font color=red>preventing nuclear proliferation</font>&#8221;</p>
@@ -104,9 +105,10 @@ Sounds like a fair argument to me. Am I missing something?</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

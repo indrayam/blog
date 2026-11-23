@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001120.html" rel="bookmark" title="Permanent link to Iraq War: Important and too easy?">Iraq War: Important and too easy?</a></h2>
                                 
-                                <h3>Posted : October 5, 2005 at 4:32 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : October 5, 2005 at 4:32 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>In trying to bring some democracy to Iraq, we are not just challenging the dictatorial-tribal political order here, but the male-dominated culture as well. In effect, we are promoting two revolutions at once: Jefferson versus Saddam and Sinbad versus the Little Mermaids - who turn out to be captains of ships. Succeeding in this venture, to stem the drift of the Arab world toward Islamo-fascism and autocracy, is so much more important than the war critics have ever allowed. But it is also so much more difficult than the Bush team ever understood or prepared for - even though it was warned. <u>The Bush team&#8217;s greatest sin was not thinking that this war was important. It was thinking that it would be easy</u>&#8230;Because, as any ship captain on the gulf will tell you, we are sailing right into the prevailing winds.</p>
@@ -107,9 +108,10 @@ filipbialy.com</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

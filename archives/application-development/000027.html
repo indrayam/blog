@@ -38,19 +38,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -60,7 +61,7 @@
   
                                 <h2><a href="/archives/application-development/000027.html" rel="bookmark" title="Permanent link to Wish there was an Appfuse Lite|Decaf|101 version">Wish there was an Appfuse Lite|Decaf|101 version</a></h2>
                                 
-                                <h3>Posted : April 30, 2004 at 6:21 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : April 30, 2004 at 6:21 pm [America/Los_Angeles]</p>
                                 
                                 <p>Matt&#8217;s <a href="http://www.raibledesigns.com/wiki/Wiki.jsp?page=AppFuse">Appfuse</a> is indeed an extremely impressive way for individuals to get up-to-speed with many of the buzzwords in Java landscape. I think I will be fairly accurate if I said that the majority of Appfuse users (and there are quite a few) today use it to learn from a <i>working application</i> which uses <a href="http://struts.apache.org">Struts/Tiles</a>, <a href="http://www.springframework.org">Spring</a>, <a href="http://www.hibernate.org/">Hibernate</a> or <a href="http://www.ibatis.com/">iBATIS</a> and <i>many many</i> more new and cutting-edge APIs and Tools. Ironically, the very things that attracts users like myself might sometimes hinder its adoption in some circles of java programming community.</p>
 <p>Before I comment on my title, let&#8217;s take a look at the list of APIs and tools Matt brilliantly pulls together in Appfuse:</p>
@@ -277,9 +278,10 @@ Thanks and keep up the good work Matt!
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us-presidential-elections-2008/001290.html" rel="bookmark" title="Permanent link to Wrong is Right">Wrong is Right</a></h2>
                                 
-                                <h3>Posted : February 19, 2007 at 10:38 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : February 19, 2007 at 10:38 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>Many people are perplexed by the uproar over Senator Hillary Clinton&rsquo;s refusal to say, as former Senator John Edwards has, that she was wrong to vote for the Iraq war resolution. Why is it so important to admit past error? And yes, it was an error &#8212; she may not have intended to cast a vote for war, but the fact is the resolution did lead to war; she may not have believed that President Bush would abuse the power he was granted, but the fact is he did&#8230;For the last six years we have been ruled by men who are pathologically incapable of owning up to mistakes. And this pathology has had real, disastrous consequences. The situation in Iraq might not be quite so dire &#8212; and we might even have succeeded in stabilizing Afghanistan &#8212; if Mr. Bush or Vice President Dick Cheney had been willing to admit early on that things weren&rsquo;t going well or that their handpicked appointees weren&rsquo;t the right people for the job&#8230;The base is remarkably forgiving toward Democrats who supported the war. But the base and, I believe, the country want someone in the White House who doesn&rsquo;t sound like another George Bush. <font color=red>That is, they want someone who doesn&rsquo;t suffer from an infallibility complex, who can admit mistakes and learn from them.</font></p>
@@ -88,9 +89,10 @@ Very <i>very</i> well written article indeed.</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

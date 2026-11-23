@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/services-and-software/000014.html" rel="bookmark" title="Permanent link to TortoiseCVS: If you use CVS, you cannot NOT use this software">TortoiseCVS: If you use CVS, you cannot NOT use this software</a></h2>
                                 
-                                <h3>Posted : April 27, 2004 at 11:45 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : April 27, 2004 at 11:45 am [America/Los_Angeles]</p>
                                 
                                 <p><center><img src="/images/tortoisecvs.gif" border=1 alt="Archived image: tortoisecvs" loading="lazy" decoding="async"></center><br />
 I was a big fan of WinCVS before I came across this neat little tool. It embeds itself into Windows Explorer, thereby giving you the ability to run CVS commands from your Explorer view. I cannot emphasize how useful this tool has been in making me productive with our CVS repository. You can download it from <a href="http://www.tortoisecvs.org/">here</a></p>
@@ -84,9 +85,10 @@ I was a big fan of WinCVS before I came across this neat little tool. It embeds 
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

@@ -38,19 +38,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -60,7 +61,7 @@
   
                                 <h2><a href="/archives/how-do-i/000021.html" rel="bookmark" title="Permanent link to HOWTO: Removing ALL folders named &#8216;CVS&#8217; in Unix and Windows">HOWTO: Removing ALL folders named &#8216;CVS&#8217; in Unix and Windows</a></h2>
                                 
-                                <h3>Posted : April 29, 2004 at 9:04 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : April 29, 2004 at 9:04 am [America/Los_Angeles]</p>
                                 
                                 <p>You have a working directory of a CVS module. You want to de-CVSify it so that you can a) use folders in another CVS project you&#8217;re about to import or b)package it up for someone without all the CVS clutter. How would you do it natively in WinXP and Unix . No Cygwin hacks in Windows or some Windows util on Unix allowed (if something like that even exists..<img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async">).
 <p>In Unix, thanks to &#8216;find&#8217; and &#8216;xargs&#8217; this thing is fairly simple in Unix:
@@ -172,9 +173,10 @@ find -name CVS -exec rm -r {} \;</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/united-or-not-state-of-american-politics-2004/000422.html" rel="bookmark" title="Permanent link to Mr. Vice President: If Kerry&#8217;s use of the words &#8220;sensitive war&#8221; is difficult for you to digest, digest this&#8230;">Mr. Vice President: If Kerry&#8217;s use of the words &#8220;sensitive war&#8221; is difficult for you to digest, digest this&#8230;</a></h2>
                                 
-                                <h3>Posted : August 12, 2004 at 7:17 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : August 12, 2004 at 7:17 pm [America/Los_Angeles]</p>
                                 
                                 <p>[via <a href="http://www.msnbc.msn.com/id/5685179/" target="_blank">Cheney criticizes call for &#8216;more sensitive&#8217; war</a>]<br />
 <center><a href="http://www.thesmokinggun.com/graphics/movies/0805041bush.mov" target="_blank"><img src="/images/bushism.jpg" border=1 alt="Archived image: bushism" loading="lazy" decoding="async"></a><br clear="both"><font size=-2>Click on the image to see the movie</font></center></p>
@@ -97,9 +98,10 @@ That is, if you get one <img src="/images/wink.gif" align="middle" alt="" aria-h
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/personal/000039.html" rel="bookmark" title="Permanent link to There are IT professionals who have no clue what a blog is..">There are IT professionals who have no clue what a blog is..</a></h2>
                                 
-                                <h3>Posted : May 3, 2004 at 8:27 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : May 3, 2004 at 8:27 pm [America/Los_Angeles]</p>
                                 
                                 <p>[via <a href="http://www.rollerweblogger.org/page/roller/20040503#go_blog_it_on_the">Blogging Roller</a>]<br />
 Personally, blogging comes <i>very, very</i> close to fulfilling one of the many dreams that folks had when WWW hit the scene. That &#8220;<font color="#800080"><i>everyone would or could be an author or a publisher in their own right</i></font>&#8220;. Well, that dream really has only begun to materialize thanks to blogging and the tools that support the easy &#8220;production&#8221; or &#8220;publication&#8221; of content (Blogging tools and Blogging engines) and the tools that make it easier to &#8220;mine&#8221; or &#8220;consume&#8221; the information produced (like the many News Aggregators). So, I find it really hard to fathom that there are IT professionals (pretty sincere ones too, as I might hastily add) who apparently have no clue what it is.</p>
@@ -157,9 +158,10 @@ HTH</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

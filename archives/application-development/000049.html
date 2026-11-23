@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/application-development/000049.html" rel="bookmark" title="Permanent link to Is anyone working on a &#8216;XWork/WebWork2 in Action&#8217; or &#8216;Programming WW2&#8242;">Is anyone working on a &#8216;XWork/WebWork2 in Action&#8217; or &#8216;Programming WW2&#8242;</a></h2>
                                 
-                                <h3>Posted : May 6, 2004 at 9:29 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : May 6, 2004 at 9:29 am [America/Los_Angeles]</p>
                                 
                                 <p>I have looked around the OpenSymphony wiki on XWork/WW2 and have also read the 40-odd pages of its coverage in the book &#8220;Java Open Source Programming&#8221;. Is there a reason why I am not hearing about a &#8220;XWork/Webwork2 in Action&#8221;, &#8220;Programming WebWork2&#8243; or a &#8220;WW2 Kickstart&#8221;? I think it&#8217;s a neat framework from my little experience building a sample &#8220;Hello, WebWork2&#8243; web application some weeks back. </p>
 <p>
@@ -180,9 +181,10 @@ Java Open Source Programming, is more of an introduction.  After you are up and 
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

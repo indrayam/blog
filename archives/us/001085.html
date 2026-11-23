@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001085.html" rel="bookmark" title="Permanent link to Iraq&#8230;again">Iraq&#8230;again</a></h2>
                                 
-                                <h3>Posted : August 14, 2005 at 10:08 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : August 14, 2005 at 10:08 am [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>&#8220;It makes no sense for the commander in chief to put out a timetable&#8221; for withdrawal, Mr. Bush declared on the same day that 14 of those Ohio troops were killed by a roadside bomb in Haditha. But even as he spoke, the war&#8217;s actual commander, Gen. George Casey, had already publicly set a timetable for &#8220;some fairly substantial reductions&#8221; to start next spring. Officially this calendar is tied to the next round of Iraqi elections, but it&#8217;s quite another election this administration has in mind. The priority now is less to save Jessica Lynch (or Iraqi democracy) than to save Rick Santorum and every other endangered Republican facing voters in November 2006&#8230;WHAT lies ahead now in Iraq instead is not victory, which Mr. Bush has never clearly defined anyway, but an exit (or triage) strategy that may echo Johnson&#8217;s March 1968 plan for retreat from Vietnam: some kind of negotiations (in this case, with Sunni elements of the insurgency), followed by more inflated claims about the readiness of the local troops-in-training, whom we&#8217;ll then throw to the wolves&#8230;.Thus the president&#8217;s claim on Thursday that &#8220;no decision has been made yet&#8221; about withdrawing troops from Iraq can be taken exactly as seriously as the vice president&#8217;s preceding fantasy that the insurgency is in its &#8220;last throes.&#8221;</p>
@@ -88,9 +89,10 @@
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

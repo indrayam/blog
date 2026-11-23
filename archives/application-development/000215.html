@@ -38,19 +38,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -60,7 +61,7 @@
   
                                 <h2><a href="/archives/application-development/000215.html" rel="bookmark" title="Permanent link to Can you spot the error in this Ant build.xml file..:-)">Can you spot the error in this Ant build.xml file..:-)</a></h2>
                                 
-                                <h3>Posted : May 27, 2004 at 3:02 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : May 27, 2004 at 3:02 pm [America/Los_Angeles]</p>
                                 
                                 <p>
 I came across an interesting <a href="http://www.onjava.com/pub/a/onjava/2004/05/19/ant.html" target="_blank">article</a> written by Grant Bremer titled &#8220;Flexible User and Environment Ant Configuration&#8221; on the OnJava site the other day. Without caring to look into the sample code that was made available as part of the article, I decided to jump in and try out his suggestions. Here&#8217;s the Ant build file used for a very simple &#8220;HelloWorld&#8221; project of mine. However, there is something fundamentally wrong with the build file. Basically, it does not work. Can you see it?</p>
@@ -292,9 +293,10 @@ Anyway, thanks for the input Robert..:-)</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

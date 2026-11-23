@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/personal/000904.html" rel="bookmark" title="Permanent link to Regular Blogging vs. Link Blogging vs. Photo Blogging">Regular Blogging vs. Link Blogging vs. Photo Blogging</a></h2>
                                 
-                                <h3>Posted : February 10, 2005 at 11:10 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : February 10, 2005 at 11:10 am [America/Los_Angeles]</p>
                                 
                                 <p>
 Ever since I laid my eyes on SBM (Social Bookmark Management) services like <a href="http://del.icio.us/" target="_blank">del.icio.us</a> and <a href="http://furl.net" target="_blank">furl</a>, surfing has become far more fun <b>and productive</b>! Almost a year ago, I came across <a href="http://thauvin.net/linkblog" target="_blank">Erik&#8217;s Linkblog</a> and was thoroughly impressed by what he was doing. I still am. What services like del.icio.us do is offer links from not just one individual, but thousands of online users on just about every topic under the sun that you can fathom.
@@ -167,9 +168,10 @@ Enjoy!</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

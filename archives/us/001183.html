@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001183.html" rel="bookmark" title="Permanent link to Gutter politics">Gutter politics</a></h2>
                                 
-                                <h3>Posted : January 25, 2006 at 3:15 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : January 25, 2006 at 3:15 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>The change in the Medicare provision underscores a practice that growing numbers of lawmakers from both parties want addressed. More than ever, Republican congressional lawmakers and leaders are making vital decisions, involving far-reaching policies and billions of dollars, without the public &#8212; or even congressional Democrats &#8212; present&#8230;&#8221;It happens in the dead of night when lobbyists get a [Republican lawmaker] in the corner and say, &#8216;We&#8217;ve got to have this,&#8217; &#8221; said Rep. Fortney &#8220;Pete&#8221; Stark (Calif.), the Democrats&#8217; point man on Medicare issues. &#8220;It&#8217;s a pattern that just goes on and on, and at some point the public&#8217;s going to rise up.&#8221;</p>
@@ -88,9 +89,10 @@ Ugh..<img src="/images/sad.gif" align="middle" alt="" aria-hidden="true" loading
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

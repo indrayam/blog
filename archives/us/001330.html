@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001330.html" rel="bookmark" title="Permanent link to Iraq">Iraq</a></h2>
                                 
-                                <h3>Posted : July 8, 2007 at 12:02 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : July 8, 2007 at 12:02 am [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>A suicide bomber killed 23 Iraqi recruits hours after they joined the army when he rammed a truck into their vehicle near Baghdad on Sunday&#8230;Police and army officials said the bomber who targeted the recruits drove into a truck carrying the <font color=red>young Sunni Arab men</font> to Baghdad just after they had joined the army in western Anbar province&#8230;<font color=red>Sunni Arab tribal leaders</font> in Anbar have rounded up thousands of men to join local security forces to fight Sunni Islamist al Qaeda, in anger at the militant group&#8217;s indiscriminate killings of civilians and harsh interpretation of Islam.</p>
@@ -91,9 +92,10 @@ At the end of the day, it seems fair to conclude that the US forces are primaril
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

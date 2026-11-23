@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/chindia/001182.html" rel="bookmark" title="Permanent link to Do we have comedy clubs in India?">Do we have comedy clubs in India?</a></h2>
                                 
-                                <h3>Posted : January 23, 2006 at 11:30 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : January 23, 2006 at 11:30 am [America/Los_Angeles]</p>
                                 
                                 <p>
 Went to see <a href="http://www.google.com/url?sa=t&#038;ct=res&#038;cd=2&#038;url=http%3A//wip.warnerbros.com/lookingforcomedy/LFC_content.html&#038;ei=UCzVQ-aMO8a2YP2xnboC&#038;sig2=s22wi6OqUKrrluDo4iaC-w" target="_blank">&#8220;Looking for Comedy in the Muslim World&#8221;</a> yesterday and thoroughly enjoyed it. However, the movie brought up a point that I was kinda surprised to hear: <b>Are there any comedy clubs in New Delhi? Are there comedy clubs anywhere in India?</b>
@@ -154,9 +155,10 @@ Sumit Sharma</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

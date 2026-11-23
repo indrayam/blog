@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us-presidential-elections-2008/001296.html" rel="bookmark" title="Permanent link to <i>Texans for Truth</i> move over. <i>Tennessee for Truth</i> is in town..;-)"><i>Texans for Truth</i> move over. <i>Tennessee for Truth</i> is in town..;-)</a></h2>
                                 
-                                <h3>Posted : February 26, 2007 at 4:11 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : February 26, 2007 at 4:11 pm [America/Los_Angeles]</p>
                                 
                                 <p>
 If I had asked folks less than a week ago (let alone yesterday) about the <b>&#8220;The Tennessee Center For Policy Research&#8221;</b>, chances are the answer would be, &#8220;Nope, No idea&#8221;. And yet, the day after Al Gore wins an award for his movie, in true Swift Boating style that the extreme wing of the Republican Party seem to have mastered, we will soon all now know about them. If you don&#8217;t, shame on you for not reading the &#8220;Drudge Report&#8221; today. Anyways, here&#8217;s the <a href="http://tennesseepolicy.org/main/article.php?article_id=367">press report</a> from this otherwise unknown Research Group. If you want to know more about how the Swift Boating game is being played, read the diary titled <a href="http://www.dailykos.com/storyonly/2007/2/26/21750/6965">&#8220;Drudge Attacks Gore Over Utility Bills&#8221;</a> at <a href="http://dailykos.com/">Daily Kos</a>.
@@ -110,9 +111,10 @@ Whichever way you look at it, the message brought to the frontpage news by this 
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

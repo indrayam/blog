@@ -25,19 +25,20 @@
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/indrayam" />
 </head>
 <body>
-<div id="header">
+<header id="header">
     <div id="myPic">
-        <img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+        <img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
     </div>
     <h1>Segmentation Fault: Core Dumped</h1>
-    <h3>Anand Sharma's Blog</h3>
-    <nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+    <p class="blog-tagline">Anand Sharma's Blog</p>
+    <nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
+<a href="index.html" aria-current="page">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 <div class="post archives-page"><h2>Archives</h2>
 <p class="archive-legend"><span class="archive-marker" aria-hidden="true">*</span> Asterisked entries bear a small scar from the web&rsquo;s vanished machinery.</p>
 <details class="archive-year-group">
@@ -1153,9 +1154,10 @@
 </details>
 </div>
 <p></p>
-<div class="copyright">
-    <a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+    <a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 <script type="text/javascript">
 (function () {
     var groups = document.querySelectorAll('.category-group, .archive-year-group');

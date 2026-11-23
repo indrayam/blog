@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us-presidential-elections-2008/001288.html" rel="bookmark" title="Permanent link to Iraq">Iraq</a></h2>
                                 
-                                <h3>Posted : February 13, 2007 at 5:01 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : February 13, 2007 at 5:01 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>I certainly did (think that President Bush would hurry us into the Iraq war). It was about the only thing I got right about the war, which, the record will show, I supported. If I were running for the presidency, I might call my position &#8220;a mistake&#8221; and bray about being misled. But it was really a lapse in judgment. For reasons extraneous to this particular column, I thought the war would do wonders for the Middle East and that it would last, at the most, a week or two. In this I was assured by the usual experts in and out of government. My head nodded like one of those little toy dogs in the window of the car ahead of you. So I do not condemn Clinton and other Democratic presidential candidates &#8212; Chris Dodd, Joe Biden and John Edwards &#8212; for voting for the war because I would have done the same. <font color=red>I fault them, though, for passing the blame to Bush as the guy who misled them</font>. They all had sufficient knowledge to question the administration&#8217;s arguments, and they did not do so. Not a single one of them, for instance, could possibly have believed the entirety of the administration&#8217;s case or not have suspected that the reasons for war were being hyped. If they felt otherwise, they have no business running for president.</p>
@@ -97,9 +98,10 @@ Anyways, my $0.02 cents on all of this. Depressing, to say the least.</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

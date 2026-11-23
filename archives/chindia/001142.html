@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/chindia/001142.html" rel="bookmark" title="Permanent link to Is India the new China?">Is India the new China?</a></h2>
                                 
-                                <h3>Posted : November 1, 2005 at 12:14 pm [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : November 1, 2005 at 12:14 pm [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>IS INDIA THE NEW CHINA? So says Morgan Stanley&#8217;s normally cranky Stephen Roach. &#8220;After my third trip there in 18 months, I am as enthusiastic about India as I was about China in the late 1990s,&#8221; he writes in a new report. &#8220;With its foundation of consumer support broadening and deepening, the Indian GDP growth dynamic could now shift toward the upper end of a 7% to 8% range. I have long argued that global rebalancing will not occur as long as the world remains hooked on one consumer&#8212;namely, the American consumer. Think India if you want a way out of that trap.&#8221;</p>
@@ -88,9 +89,10 @@ I would like to believe it, but something inside me continues to be very skeptic
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

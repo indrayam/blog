@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001090.html" rel="bookmark" title="Permanent link to &#8220;I wish I had not been involved in it&#8221; - Col. Lawrence Wilkerson">&#8220;I wish I had not been involved in it&#8221; - Col. Lawrence Wilkerson</a></h2>
                                 
-                                <h3>Posted : August 20, 2005 at 2:29 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : August 20, 2005 at 2:29 am [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>&#8220;(Colin Powell) came through the door &#8230; and he had in his hands a sheaf of papers, and he said, &#8216;This is what I&#8217;ve got to present at the United Nations according to the White House, and you need to look at it,&#8217;&#8221;&#8230;&#8221;It was anything but an intelligence document. It was, as some people characterized it later, sort of a Chinese menu from which you could pick and choose&#8230;.I look back on it, and I still say it was the lowest point in my life.&#8221;</p>
@@ -94,9 +95,10 @@ If supporters of this President feel <a href="/archives/us/001084.html" target="
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

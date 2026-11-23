@@ -36,19 +36,20 @@
 
 <body>
 
-<div id="header">
+<header id="header">
 	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" border="1" loading="eager" decoding="async">
+		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
 	</div>
 	<h1>Segmentation Fault: Core Dumped</h1>
-	<h3>Anand Sharma's Blog</h3>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><input id="topnav-toggle" class="topnav-toggle-input" type="checkbox"><label class="topnav-toggle" for="topnav-toggle">Menu</label><div class="topnav-links">
+	<p class="blog-tagline">Anand Sharma's Blog</p>
+	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
         <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
 <a href="../categories.html">Categories</a>
-    </div></nav>
-</div>
+    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+</header>
+<main>
 
 
 			
@@ -58,7 +59,7 @@
   
                                 <h2><a href="/archives/us/001302.html" rel="bookmark" title="Permanent link to American Nightmare">American Nightmare</a></h2>
                                 
-                                <h3>Posted : March 18, 2007 at 9:19 am [America/Los_Angeles]</h3>
+                                <p class="post-dateline">Posted : March 18, 2007 at 9:19 am [America/Los_Angeles]</p>
                                 
                                 <blockquote>
 <p>In the last three months of 2006, lenders began foreclosure proceedings on <font color=red>about one out of every 200 mortgages, the highest rate on records dating back 37 years</font>, according to the Mortgage Bankers Association. Some 1.5 million homeowners will face foreclosure this year, research firm RealtyTrac estimates. &#8220;An American dream has become an American nightmare,&#8221; said Howard Pitkin, commissioner at the Connecticut Department of Banking. Almas Sayeed, an economic policy analyst at the liberal policy group Center for American Progress, said borrowers going through foreclosure had little chance of regaining the financial footing they would need to qualify for another loan. &#8220;This promise of home ownership starts to elude families that tried to buy a home, bought into a loan that they really couldn&#8217;t afford, <font color=red>and once they foreclosed, the possibility of owning a home again is really, really limited,&#8221;</font> she said.</p>
@@ -88,9 +89,10 @@ This really sucks.</p>
 				
 	
 <p></p>
-<div class="copyright">
-	<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
-</div>
+</main>
+<footer class="copyright">
+	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>
+</footer>
 
 
 </body>

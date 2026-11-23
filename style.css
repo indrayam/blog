@@ -78,7 +78,7 @@ a {
 	text-decoration: underline;
 }
 
-/* ── Site nav (shared with the resume, The Daily Diff, and Cribsheets) ── */
+/* ── Site nav (shared with the resume, The Daily Diff, and Field Notes) ── */
 .site-header {
 	max-width: var(--page-width);
 	margin: 18px auto 14px;

@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-1365">
-  
-                                <h2><a href="/archives/us-presidential-elections-2008/001365.html" rel="bookmark" title="Permanent link to Are you serious?">Are you serious?</a></h2>
-                                
-                                <p class="post-dateline">Posted : December 10, 2007 at 8:25 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1365">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Are you serious?</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2007-12-10T20:25-08:00">Monday, December 10, 2007</time><span class="post-date-time">8:25 PM PST</span></p>
+</header>
+<blockquote>
 <p>For all the problems Senator Hillary Rodham Clinton appears to be having holding off her rivals in Iowa and New Hampshire, she remains strong nationally, the poll found. Even after what her aides acknowledge have been two of the roughest months of her candidacy, she is viewed by Democrats as a far more electable presidential nominee than either Senator Barack Obama or John Edwards. Not only do substantially more Democratic voters judge her to be ready for the presidency than believe Mr. Obama is prepared for the job, the poll found, <font color=red>but more Democrats also see Mrs. Clinton rather than Mr. Obama as someone who can unite the country.</font></p>
 <cite>&mdash; NYTimes, <a href="http://www.nytimes.com/2007/12/11/us/politics/11poll.html?_r=1&#038;ref=politics&#038;oref=slogin">&#8220;Poll Finds G.O.P. Field Isn&rsquo;t Touching Voters&#8221;</a></cite>
 </blockquote>
@@ -73,18 +78,8 @@ I am speechless and saddened by the sheer ineptitude of the Democrats who partic
 <p>
 Senator Clinton, in my mind, will flunk the first requirement, especially in her ability to Unite and Inspire the people of this country.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/us-presidential-elections-2008/" title="View all posts in US Presidential Elections 2008" rel="category tag">US Presidential Elections 2008</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>366</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#us-presidential-elections-2008" rel="tag">US Presidential Elections 2008</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -93,7 +88,6 @@ Senator Clinton, in my mind, will flunk the first requirement, especially in her
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

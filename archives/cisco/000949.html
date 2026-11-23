@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-949">
-  
-                                <h2><a href="/archives/cisco/000949.html" rel="bookmark" title="Permanent link to Quote of the day&#8230;">Quote of the day&#8230;</a></h2>
-                                
-                                <p class="post-dateline">Posted : April 4, 2005 at 4:09 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-949">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Quote of the day&#8230;</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2005-04-04T16:09-07:00">Monday, April 4, 2005</time><span class="post-date-time">4:09 PM PDT</span></p>
+</header>
+<blockquote>
 <p>There&#8217;s no higher-profile embodiment of Cisco&#8217;s architecture-to-business-solutions message than Cisco itself. The company is a rabid consumer and integrator of its own wireless, IP telephony, switching, routing and security dog food. Every quarter or so, all of Cisco&#8217;s business leaders present their groups&#8217; IT strategies to Chambers and their peers, along with productivity improvements to be squeezed from those technology investments. Cisco says the technology and process changes it implemented last fiscal year boosted productivity, as measured by revenue per employee, by 27 percent, to $690,000.</p>
 <cite>&mdash; <a href="http://www.nwc.com/showArticle.jhtml?articleID=50500782&#038;pgno=1" target="_blank">Cisco Redux</a>, Network Computing</cite>
 </blockquote>
@@ -71,23 +76,13 @@ It took me almost four years to <i>really</i> get it, but the fact is that the i
 <p>
 If you&#8217;d like to read case studies on how Cisco uses it&#8217;s products/technologies to &#8220;enable&#8221; it&#8217;s own business, click <a href="http://www.cisco.com/en/US/about/ciscoitatwork/case_studies.html" target="_blank">here</a>. They&#8217;re really well written, atleast some of them. My favorite so far: <b><a href="http://www.cisco.com/en/US/about/ciscoitatwork/case_studies/security_dl2.html" target="_blank">Cisco VPN Client Brings Flexibility and Cost Reduction to Cisco Remote Access Solution</a></b></p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/cisco/" title="View all posts in Cisco" rel="category tag">Cisco</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>1224</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#cisco" rel="tag">Cisco</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -129,11 +124,10 @@ If you&#8217;d like to read case studies on how Cisco uses it&#8217;s products/t
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

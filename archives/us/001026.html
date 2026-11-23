@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,29 +61,18 @@
 			
 
         
-                        <div class="post" id="post-1026">
-  
-                                <h2><a href="/archives/us/001026.html" rel="bookmark" title="Permanent link to Dick">Dick</a></h2>
-                                
-                                <p class="post-dateline">Posted : June 21, 2005 at 10:56 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1026">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Dick</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2005-06-21T22:56-07:00">Tuesday, June 21, 2005</time><span class="post-date-time">10:56 PM PDT</span></p>
+</header>
+<blockquote>
 <p>&#8220;Hey boss. What are you doing? Where are you going? How am I going to get elected running on this dog&#8217;s breakfast of antiscience, head-in-the-sand policies?&#8221;</p>
 <cite>&mdash; <a href="http://www.nytimes.com/2005/06/22/opinion/22friedman.html?hp" target="_blank">&#8220;Run, Dick, Run&#8221;</a>, Thomas Friedman</cite>
 </blockquote>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/us/" title="View all posts in US" rel="category tag">US</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>622</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#us" rel="tag">US</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -86,7 +81,6 @@
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

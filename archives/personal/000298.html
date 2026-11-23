@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-298">
-  
-                                <h2><a href="/archives/personal/000298.html" rel="bookmark" title="Permanent link to So, what&#8217;s cool about Columbus, Ohio?">So, what&#8217;s cool about Columbus, Ohio?</a></h2>
-                                
-                                <p class="post-dateline">Posted : June 20, 2004 at 4:41 pm [America/Los_Angeles]</p>
-                                
-                                <p><center><a href="http://ci.columbus.oh.us/"><img src="/images/columbus.gif" border=1 alt="Archived image: columbus" loading="lazy" decoding="async"></a></center></p>
+                        <article class="post" id="post-298">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">So, what&#8217;s cool about Columbus, Ohio?</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-06-20T16:41-07:00">Sunday, June 20, 2004</time><span class="post-date-time">4:41 PM PDT</span></p>
+</header>
+<p><center><a href="http://ci.columbus.oh.us/"><img src="/images/columbus.gif" border=1 alt="Archived image: columbus" loading="lazy" decoding="async"></a></center></p>
 <p>
 My <a href="http://rajesh.induspolis.com">brother</a>, who finished his MBA from <a href="http://www.sfsu.edu">San Francisco State University</a> this summer,  took off this morning for Columbus OH to pursue a consulting opportunity in Advanced Flash development.</p>
 <p>
@@ -69,23 +74,13 @@ We stayed together for almost five years in our little <a href="http://www.prome
 <p>
 I wonder what kind of a place Columbus is, especially for an IT professional attempting to settle down and raise his family.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>787</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#personal" rel="tag">Personal</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -139,11 +134,10 @@ Anand</p>
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

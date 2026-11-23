@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-73">
-  
-                                <h2><a href="/archives/personal/000073.html" rel="bookmark" title="Permanent link to Internationalization that hits a home run (personally)..;-)">Internationalization that hits a home run (personally)..;-)</a></h2>
-                                
-                                <p class="post-dateline">Posted : May 12, 2004 at 7:45 pm [America/Los_Angeles]</p>
-                                
-                                <p><center><img src="/images/hindi.jpg" alt="Archived image: hindi" loading="lazy" decoding="async"></center></p>
+                        <article class="post" id="post-73">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Internationalization that hits a home run (personally)..;-)</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-05-12T19:45-07:00">Wednesday, May 12, 2004</time><span class="post-date-time">7:45 PM PDT</span></p>
+</header>
+<p><center><img src="/images/hindi.jpg" alt="Archived image: hindi" loading="lazy" decoding="async"></center></p>
 <p>The last time I checked, I, like many others who were born and brought up in India, knew three or more languages fairly well. In my case, these are Hindi, Bengali and English. I am obviously discounting the many <i>computer languages</i> that I think I know equally well if not better <img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async">. However, thanks to reasons better left for the intellectuals and the historians to figure out, English turned out to be the language that dominated the others throughout my schooling and higher studies. Needless to say, the last 9-odd years of stay here in US has not helped the cause of these other languages.</p>
 <p>What has all this got to do with i18n and home run, you ask? Well, thanks to this interesting <a href="http://www.drishtikona.com/archives/industrymanagement/000067.html#comments" target="_blank">comment</a> posted by Pankaj on my dad&#8217;s blog this morning, I decided it was time to see if I could actually read and write on my WinXP using a language other than English. Well, after a few hours of surfing around, I was successful in writing a few words in Hindi on MSWord. It was a pain, but not as much as I thought. Here are the details for folks who would like to give it a whirl:</p>
 <blockquote><p>
@@ -85,23 +90,13 @@ Does that mean I will be busy refreshing my Hindi language skills versus Java/Pe
 <p>In case you are wondering, the first line basically spells my full name and the second can be roughly translated as &#8220;Hail, Java&#8221;. Ok, that was a bad translation but you get the idea <img src="/images/smile.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async">
 </div>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>821</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#personal" rel="tag">Personal</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -122,11 +117,10 @@ Does that mean I will be busy refreshing my Hindi language skills versus Java/Pe
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

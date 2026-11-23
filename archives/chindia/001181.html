@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,36 +61,25 @@
 			
 
         
-                        <div class="post" id="post-1181">
-  
-                                <h2><a href="/archives/chindia/001181.html" rel="bookmark" title="Permanent link to India vs. China">India vs. China</a></h2>
-                                
-                                <p class="post-dateline">Posted : January 17, 2006 at 10:51 am [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1181">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">India vs. China</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2006-01-17T10:51-08:00">Tuesday, January 17, 2006</time><span class="post-date-time">10:51 AM PST</span></p>
+</header>
+<blockquote>
 <p>The great race of the 21st century is under way between China and India to see which will be the leading power in the world in the year 2100&#8230;One of India&#8217;s (and China&#8217;s) greatest strengths is its hunger for education. Most American newspapers lure readers with comics, and some British tabloids with photos of topless women, but a Calcutta daily newspaper is so shameless that it publishes a column on math equations. Imagine titillating readers with trigonometry!&#8230;The bottom line is that the once-great nation of India is reawakening from several centuries of torpor, and facing less risk of a political cataclysm than China. India is poised to again be a great world power. But over all, my bet is that China will still grow faster and win the race of the century. I&#8217;m going to tell my kids to keep studying Chinese, rather than switch to Hindi.</p>
 <cite>&mdash; Nicholas D. Kristoff, <a href="http://select.nytimes.com/2006/01/17/opinion/17kristof.html?hp" target="_blank">&#8220;They&#8217;re Rounding the First Turn! And the Favorite Is . . .&#8221;</a></cite>
 </blockquote>
 <p>
 The two countries account for 1/3rd of the population of the world today. I know I would be done by 2100, if not much much sooner. So, for the record, I could care less who wins the race when the calendar hits 2100. I would be pretty impressed and thrilled if the two countries did well enough to improve the lives of their respective population and make it a much better than it was in 2000. Howz that for a goal!</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/chindia/" title="View all posts in Chindia" rel="category tag">Chindia</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>894</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#chindia" rel="tag">Chindia</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -101,11 +96,10 @@ I think china will still be ahead of india ,cos they have the discipline and wil
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

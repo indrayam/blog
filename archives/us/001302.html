@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,31 +61,20 @@
 			
 
         
-                        <div class="post" id="post-1302">
-  
-                                <h2><a href="/archives/us/001302.html" rel="bookmark" title="Permanent link to American Nightmare">American Nightmare</a></h2>
-                                
-                                <p class="post-dateline">Posted : March 18, 2007 at 9:19 am [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1302">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">American Nightmare</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2007-03-18T09:19-07:00">Sunday, March 18, 2007</time><span class="post-date-time">9:19 AM PDT</span></p>
+</header>
+<blockquote>
 <p>In the last three months of 2006, lenders began foreclosure proceedings on <font color=red>about one out of every 200 mortgages, the highest rate on records dating back 37 years</font>, according to the Mortgage Bankers Association. Some 1.5 million homeowners will face foreclosure this year, research firm RealtyTrac estimates. &#8220;An American dream has become an American nightmare,&#8221; said Howard Pitkin, commissioner at the Connecticut Department of Banking. Almas Sayeed, an economic policy analyst at the liberal policy group Center for American Progress, said borrowers going through foreclosure had little chance of regaining the financial footing they would need to qualify for another loan. &#8220;This promise of home ownership starts to elude families that tried to buy a home, bought into a loan that they really couldn&#8217;t afford, <font color=red>and once they foreclosed, the possibility of owning a home again is really, really limited,&#8221;</font> she said.</p>
 <cite>&mdash; <a href="http://news.yahoo.com/s/nm/20070318/bs_nm/usa_subprime_dream_dc_3">&#8220;Housing &#8220;nightmare&#8221; tarnishes the American dream&#8221;</a></cite>
 </blockquote>
 <p>
 This really sucks.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/us/" title="View all posts in US" rel="category tag">US</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>660</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#us" rel="tag">US</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -88,7 +83,6 @@ This really sucks.</p>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

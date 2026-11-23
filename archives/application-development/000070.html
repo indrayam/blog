@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-70">
-  
-                                <h2><a href="/archives/application-development/000070.html" rel="bookmark" title="Permanent link to Nice graphics for your next web application or site">Nice graphics for your next web application or site</a></h2>
-                                
-                                <p class="post-dateline">Posted : May 11, 2004 at 7:34 pm [America/Los_Angeles]</p>
-                                
-                                <p><center><a href="http://www.istockphoto.com/" target="_blank"><img src="/images/istock.jpg" border="0" alt="Archived image: istock" loading="lazy" decoding="async"></a></center></p>
+                        <article class="post" id="post-70">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Nice graphics for your next web application or site</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-05-11T19:34-07:00">Tuesday, May 11, 2004</time><span class="post-date-time">7:34 PM PDT</span></p>
+</header>
+<p><center><a href="http://www.istockphoto.com/" target="_blank"><img src="/images/istock.jpg" border="0" alt="Archived image: istock" loading="lazy" decoding="async"></a></center></p>
 <p>
 Let me confess upfront: I am not a graphics person or a web designer, although I would like to claim that I have a pair of eyes which can differentiate between the good and the bad. At least, I think. Anyway, with a fervent desire to create sites and applications that are visually appealing and yet not too heavy or &lt;blink&gt; tag friendly, I went on a search looking for site(s) which would offer me photos, graphics that I could download, massage and use on my site, legally..<img src="/images/smile.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async"></p>
 <p>
@@ -69,23 +74,13 @@ Safe to say that <a href="http://www.istockphoto.com/" target="_blank">http://ww
 <p>
 Do you know any such sites that offer similar service for free? Sure would be nice to know and share.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/application-development/" title="View all posts in Application Development" rel="category tag">Application Development</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>734</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#application-development" rel="tag">Application Development</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -114,11 +109,10 @@ Do you know any such sites that offer similar service for free? Sure would be ni
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

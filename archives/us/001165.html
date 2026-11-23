@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,31 +61,20 @@
 			
 
         
-                        <div class="post" id="post-1165">
-  
-                                <h2><a href="/archives/us/001165.html" rel="bookmark" title="Permanent link to Disregard for Science and Math">Disregard for Science and Math</a></h2>
-                                
-                                <p class="post-dateline">Posted : December 6, 2005 at 5:18 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1165">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Disregard for Science and Math</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2005-12-06T17:18-08:00">Tuesday, December 6, 2005</time><span class="post-date-time">5:18 PM PST</span></p>
+</header>
+<blockquote>
 <p>Without some fluency in science and math, we&#8217;ll simply be left behind in the same way that Ming Dynasty Chinese scholars were. Increasingly, we face public policy issues - avian flu, stem cells - that require some knowledge of scientific methods, yet the present Congress contains 218 lawyers, and just 12 doctors and 3 biologists. In terms of the skills we need for the 21st century, we&#8217;re Shakespeare-quoting Philistines. This disregard for science already hurts us. The U.S. has bungled research on stem cells, perhaps partly because Mr. Bush didn&#8217;t realize how restrictive his curb on research funds would be. And we&#8217;re risking our planet&#8217;s future because our leaders are frozen in the headlights of climate change. In this century, one of the most complex choices we will make will be what tinkering to allow with human genes, to &#8220;improve&#8221; the human species. <u>How can our leaders decide that issue if they barely know what DNA is?</u></p>
 <cite>&mdash; Nicholas D. Kristoff, <a href="http://select.nytimes.com/2005/12/06/opinion/06kristof.html?hp" target="_blank">&#8220;The Hubris of the Humanities&#8221;</a></cite>
 </blockquote>
 <p>
 Well said.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/us/" title="View all posts in US" rel="category tag">US</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>633</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#us" rel="tag">US</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -88,7 +83,6 @@ Well said.</p>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

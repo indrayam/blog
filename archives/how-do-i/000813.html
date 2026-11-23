@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-813">
-  
-                                <h2><a href="/archives/how-do-i/000813.html" rel="bookmark" title="Permanent link to HOWTO: Capturing still images from Windows Media Player (8.x/9.x)">HOWTO: Capturing still images from Windows Media Player (8.x/9.x)</a></h2>
-                                
-                                <p class="post-dateline">Posted : November 18, 2004 at 10:08 am [America/Los_Angeles]</p>
-                                
-                                <p>
+                        <article class="post" id="post-813">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">HOWTO: Capturing still images from Windows Media Player (8.x/9.x)</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-11-18T10:08-08:00">Thursday, November 18, 2004</time><span class="post-date-time">10:08 AM PST</span></p>
+</header>
+<p>
 If you&#8217;ve ever tried capturing a still image from a Windows Media Player (WMP), you know it&#8217;s not as simple as pressing <span id="code">&#8216;Print Screen&#8217;</span> or <span id="code">&#8216;Alt+Print Screen&#8217;</span> button while the movie is playing. If you&#8217;ve no clue what I am talking about, here&#8217;s a little test you can run yourself.</p>
 <p>
 <b>Assumptions:</b></p>
@@ -111,18 +116,8 @@ Do you see the problem? It literally embeds the movie (I guess as an OLE object)
 2. Thanks to Mark Salloway&#8217;s Resource Center for pointing <a href="http://www.mvps.org/marksxp/WindowsXP/wmp.php" target="_blank">this</a> issue (and the solution) out.
 </div>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/how-do-i/" title="View all posts in How do I?" rel="category tag">How do I?</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>1255</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#how-do-i" rel="tag">How do I?</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -131,7 +126,6 @@ Do you see the problem? It literally embeds the movie (I guess as an OLE object)
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

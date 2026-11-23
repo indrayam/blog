@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,31 +61,20 @@
 			
 
         
-                        <div class="post" id="post-1306">
-  
-                                <h2><a href="/archives/us/001306.html" rel="bookmark" title="Permanent link to An Easter Sermon">An Easter Sermon</a></h2>
-                                
-                                <p class="post-dateline">Posted : April 8, 2007 at 1:54 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1306">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">An Easter Sermon</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2007-04-08T13:54-07:00">Sunday, April 8, 2007</time><span class="post-date-time">1:54 PM PDT</span></p>
+</header>
+<blockquote>
 <p>The key distinction is between man and meme. Yes, a great power can always kill and torment enemies, and, yes, there will always be times when that makes sense. Still, when you&rsquo;re dealing with terrorists, it&rsquo;s their memes &#8212; their ideas, their attitudes &#8212; that are Public Enemy No. 1. Jihadists are hosts for the virus of hatred, and the object of the game is to keep the virus from finding new hosts. The Internet is fertile ground for memes, and jihadists are good at getting the brand out. One of the few things Osama bin Laden has in common with the Jesus of the Gospels is belief in the power of viral marketing. The ultimate in viral marketing was Jesus&rsquo; ultimate sacrifice. Deemed a threat to the social order, he was crucified under Roman auspices. But the Romans forgot one thing: If you face a small but growing movement that threatens the imperial order, you shouldn&rsquo;t attack the men in ways that help the memes. Mr. Bush says his favorite philosopher is Jesus. One way to show it would be to spend less time repeat- ing the mistake of the Romans and more time heeding the wisdom of Christ.</p>
 <cite>&mdash; NYTimes, <a href="http://select.nytimes.com/2007/04/07/opinion/07wright.html?pagewanted=print">&#8220;An Easter Sermon&#8221;</a></cite>
 </blockquote>
 <p>
 Very <i>very</i> nice wrttien article.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/us/" title="View all posts in US" rel="category tag">US</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>390</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#us" rel="tag">US</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -88,7 +83,6 @@ Very <i>very</i> nice wrttien article.</p>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

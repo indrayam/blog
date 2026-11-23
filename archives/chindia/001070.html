@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-1070">
-  
-                                <h2><a href="/archives/chindia/001070.html" rel="bookmark" title="Permanent link to A <i>r-e-a-l-l-y</i> bad week for India..:-(">A <i>r-e-a-l-l-y</i> bad week for India..:-(</a></h2>
-                                
-                                <p class="post-dateline">Posted : August 1, 2005 at 7:00 pm [America/Los_Angeles]</p>
-                                
-                                <blockquote>
+                        <article class="post" id="post-1070">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">A <i>r-e-a-l-l-y</i> bad week for India..:-(</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2005-08-01T19:00-07:00">Monday, August 1, 2005</time><span class="post-date-time">7:00 PM PDT</span></p>
+</header>
+<blockquote>
 <p>A massive <a href="http://www.hindu.com/thehindu/holnus/000200507250301.htm" target="_blank">quake</a>, <a href="http://www.iht.com/getina/files/265226.html" target="_blank">riots</a>, <a href="http://news.com.com/Indian+call+centers+struggle+amid+flood/2100-1011_3-5814231.html?tag=nefd.top" target="_blank">rains</a> that claimed about 1,000 lives, a freak <a href="http://in.news.yahoo.com/050728/43/5ziez.html" target="_blank">accident</a> destroying a key offshore oil platform, a <a href="http://abcnews.go.com/International/wireStory?id=985924&#038;CMP=OTC-RSSFeeds0312" target="_blank">bomb</a> on a train and a militant siege in <a href="http://www.expressindia.com/fullstory.php?newsid=51729" target="_blank">Kashmir</a> &#8212; it&#8217;s been a week that Indians would rather forget but won&#8217;t easily be able to.</p>
 <cite>&mdash; Sify News, <a href="http://headlines.sify.com/news/fullstory.php?id=13907367&#038;headline=A~week~Indians~would~love~to~forget" target="_blank">&#8220;A week Indians would love to forget&#8221;</a></cite>
 </blockquote>
@@ -71,18 +76,8 @@ It&#8217;s easy to read this and conclude, with classic Indian cyncism I might a
 <p>
 For the sake of a &#8220;better&#8221; India, I would fervently hope and pray that the &#8220;new and upcoming&#8221; generation of Indian youth is not bitten by this silly bug. <u>Optimism</u> is a good thing. <u>Sacrifice</u> for the sake of a better tomorrow is even better. <u>Sense of humor</u>, especially in worst of times, is the best. <b>&#8220;The best thing to do when confronted with a problem is to help solve it!&#8221;</b> is a good mantra I hope they follow all their lives. Bottomline, <b>I&#8217;d rather they be part of the <u>solution</u> than be part of the <u>problem</u>, or worse, part of the ruck that endlessly analyze the problem from their comfy dwellings in anything-but-India <i>(hint..hint)</i></b>. <img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async"></p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/chindia/" title="View all posts in Chindia" rel="category tag">Chindia</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>537</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#chindia" rel="tag">Chindia</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -91,7 +86,6 @@ For the sake of a &#8220;better&#8221; India, I would fervently hope and pray th
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

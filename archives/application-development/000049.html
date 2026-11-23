@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-49">
-  
-                                <h2><a href="/archives/application-development/000049.html" rel="bookmark" title="Permanent link to Is anyone working on a &#8216;XWork/WebWork2 in Action&#8217; or &#8216;Programming WW2&#8242;">Is anyone working on a &#8216;XWork/WebWork2 in Action&#8217; or &#8216;Programming WW2&#8242;</a></h2>
-                                
-                                <p class="post-dateline">Posted : May 6, 2004 at 9:29 am [America/Los_Angeles]</p>
-                                
-                                <p>I have looked around the OpenSymphony wiki on XWork/WW2 and have also read the 40-odd pages of its coverage in the book &#8220;Java Open Source Programming&#8221;. Is there a reason why I am not hearing about a &#8220;XWork/Webwork2 in Action&#8221;, &#8220;Programming WebWork2&#8243; or a &#8220;WW2 Kickstart&#8221;? I think it&#8217;s a neat framework from my little experience building a sample &#8220;Hello, WebWork2&#8243; web application some weeks back. </p>
+                        <article class="post" id="post-49">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Is anyone working on a &#8216;XWork/WebWork2 in Action&#8217; or &#8216;Programming WW2&#8242;</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-05-06T09:29-07:00">Thursday, May 6, 2004</time><span class="post-date-time">9:29 AM PDT</span></p>
+</header>
+<p>I have looked around the OpenSymphony wiki on XWork/WW2 and have also read the 40-odd pages of its coverage in the book &#8220;Java Open Source Programming&#8221;. Is there a reason why I am not hearing about a &#8220;XWork/Webwork2 in Action&#8221;, &#8220;Programming WebWork2&#8243; or a &#8220;WW2 Kickstart&#8221;? I think it&#8217;s a neat framework from my little experience building a sample &#8220;Hello, WebWork2&#8243; web application some weeks back. </p>
 <p>
 Here are a few links that I have collected over a few months on XWork/WW2 topic:
 <ul>
@@ -81,23 +86,13 @@ Here are a few links that I have collected over a few months on XWork/WW2 topic:
 <br />
 Just found out that the last URL entry titled &#8220;Is OpenSymphony dead?&#8221; has a comment from &#8220;Ara Abrahamian&#8221; (dated: 02/20/2004) which talks about a book. Anyone has more details around it.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/application-development/" title="View all posts in Application Development" rel="category tag">Application Development</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>750</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#application-development" rel="tag">Application Development</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -176,11 +171,10 @@ Java Open Source Programming, is more of an introduction.  After you are up and 
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

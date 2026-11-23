@@ -29,7 +29,8 @@
 	<link rel="stylesheet" href="/style.css" media="screen">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" integrity="sha384-RH2xi4eIQ/gjtbs9fUXM68sLSi99C7ZWBRX1vDrVv6GQXRibxXLbwO2NGZB74MbU" crossorigin="anonymous" referrerpolicy="no-referrer" type="text/javascript"></script>
         <script src="/js/syntax-highlight.js" type="text/javascript"></script>
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -38,18 +39,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -57,13 +63,12 @@
 			
 
         
-                        <div class="post" id="post-262">
-  
-                                <h2><a href="/archives/services-and-software/000262.html" rel="bookmark" title="Permanent link to Installing softwares on Unix systems from source">Installing softwares on Unix systems from source</a></h2>
-                                
-                                <p class="post-dateline">Posted : June 8, 2004 at 10:33 pm [America/Los_Angeles]</p>
-                                
-                                <p>Installing and uninstalling softwares from source has been a ritual I have been performing for some time now. Yes, package managers are incredibly user-friendly and their ability to download and install softwares by running one liners is indeed impressive. I do use it and have even <a href="/archives/application-development/000235.html" target="_blank">blogged</a> about it.</p>
+                        <article class="post" id="post-262">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Installing softwares on Unix systems from source</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-06-08T22:33-07:00">Tuesday, June 8, 2004</time><span class="post-date-time">10:33 PM PDT</span></p>
+</header>
+<p>Installing and uninstalling softwares from source has been a ritual I have been performing for some time now. Yes, package managers are incredibly user-friendly and their ability to download and install softwares by running one liners is indeed impressive. I do use it and have even <a href="/archives/application-development/000235.html" target="_blank">blogged</a> about it.</p>
 <p>
 However, installing software using source code has its advantages. <i>You&#8217;ve the power</i> to tweak settings for greater security, performance optimizations, not to mention the ability to customize the source code itself. On a similar token, if you dabble too much with the code without knowing nearly enough, you&#8217;ve the power to royally mess yourself up as well <img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async"></p>
 <p>
@@ -129,23 +134,13 @@ The difference in the filesystems before and after running the <i>make install</
 Thanks to my anonymous friend who left a comment, I spent some time this morning trying to check out <a href="http://freshmeat.net/projects/checkinstall/" target="_blank">Checkinstall</a>. It is an incredible tool and much much more powerful than what my utility offers. Go ahead, give it a try. I promise you&#8217;ll luv it.
 </div>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/services-and-software/" title="View all posts in Services and Software" rel="category tag">Services and Software</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>1203</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#services-and-software" rel="tag">Services and Software</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -206,11 +201,10 @@ for(i=0;i</p>
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

@@ -27,7 +27,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&amp;family=Lora:wght@400;700;900&amp;family=Newsreader:opsz,wght@6..72,400;6..72,700;6..72,900&amp;family=PT+Serif:wght@400;700&amp;family=Source+Sans+Pro:wght@400;700;900&amp;display=swap">
 	<link rel="stylesheet" href="/style.css" media="screen">
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -36,18 +37,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -55,13 +61,12 @@
 			
 
         
-                        <div class="post" id="post-1113">
-  
-                                <h2><a href="/archives/services-and-software/001113.html" rel="bookmark" title="Permanent link to Oracle OpenWorld 2005: Vini, Vidi,&#8230; No Vici for me..;-)">Oracle OpenWorld 2005: Vini, Vidi,&#8230; No Vici for me..;-)</a></h2>
-                                
-                                <p class="post-dateline">Posted : September 27, 2005 at 3:08 pm [America/Los_Angeles]</p>
-                                
-                                <p>[via an email that I sent to my colleagues @ <a href="http://www.cisco.com" target="_blank">work</a>]</p>
+                        <article class="post" id="post-1113">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Oracle OpenWorld 2005: Vini, Vidi,&#8230; No Vici for me..;-)</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2005-09-27T15:08-07:00">Tuesday, September 27, 2005</time><span class="post-date-time">3:08 PM PDT</span></p>
+</header>
+<p>[via an email that I sent to my colleagues @ <a href="http://www.cisco.com" target="_blank">work</a>]</p>
 <p>
 Simply put, it was a blast. And yes, I did try to take it all in since this was the first time ever that I had an opportunity to attend one of these. As for why I did not photoblog while at OOW, well, let&#8217;s just say that the Wi-Fi connection at OOW was as good as my neighbor&#8217;s Wi-Fi&#8230;<img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async"> It barely worked for me, although I must confess that some attendees at the conference seemed to have better luck with it than me. I did take a few snaps, but nothing like the ones I was hoping to take. I may put it up on Yahoo&#8217;s Flickr service one of these days.
 </p>
@@ -153,23 +158,13 @@ I am sure there were others, but these are the ones that got tattoed on mine..<i
 <p>
 Anyways, hope this helps.</p>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/services-and-software/" title="View all posts in Services and Software" rel="category tag">Services and Software</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>1467</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#services-and-software" rel="tag">Services and Software</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
 
-<div class="comment">
+<section class="comments" aria-labelledby="comments">
 
 
         <h2 id="comments">
@@ -232,11 +227,10 @@ MD5 and SHA are hashing algorithms; not encryption/decryption algorithms. I wond
 
            </div> 
            <p></p>
-</div>
+</section>
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

@@ -29,7 +29,8 @@
 	<link rel="stylesheet" href="/style.css" media="screen">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js" integrity="sha384-RH2xi4eIQ/gjtbs9fUXM68sLSi99C7ZWBRX1vDrVv6GQXRibxXLbwO2NGZB74MbU" crossorigin="anonymous" referrerpolicy="no-referrer" type="text/javascript"></script>
         <script src="/js/syntax-highlight.js" type="text/javascript"></script>
-        <link rel="Shortcut Icon" href="/images/favicon.ico">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://indrayam.com/feed/" />
 	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://indrayam.com/feed/atom/" />
 	<link rel="pingback" href="http://indrayam.com/xmlrpc.php" />
@@ -38,18 +39,23 @@
 
 <body>
 
-<header id="header">
-	<div id="myPic">
-		<img src="/images/me.gif" alt="Portrait of Anand Sharma" width="120" height="148" loading="eager" decoding="async">
-	</div>
-	<h1>Segmentation Fault: Core Dumped</h1>
-	<p class="blog-tagline">Anand Sharma's Blog</p>
-	<nav id="topnav" class="topnav-menu" aria-label="Site navigation"><button class="topnav-toggle" type="button" aria-expanded="false" aria-controls="topnav-links">Menu</button><div class="topnav-links" id="topnav-links">
-        <a href="https://indrayam.com/">Home</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../../index.html">Blog</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../index.html">Archives</a><span class="topnav-separator" aria-hidden="true"> | </span>
-<a href="../categories.html">Categories</a>
-    </div></nav><script>(function(){var n=document.getElementById("topnav"),b=n.querySelector(".topnav-toggle");n.classList.add("has-toggle");b.addEventListener("click",function(){b.setAttribute("aria-expanded",String(b.getAttribute("aria-expanded")!=="true"))})})();</script>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Site navigation">
+    <ul>
+      <li><a href="https://indrayam.com/">Home</a></li>
+      <li><a href="https://blog.indrayam.com/aboutme.html">About Me</a></li>
+      <li><a href="https://resume.indrayam.com/">Resume</a></li>
+      <li><a href="https://dailydiff.indrayam.com/">Daily Diff</a></li>
+      <li><a href="https://cribsheets.indrayam.com/">Cribsheets</a></li>
+      <li><a href="https://blog.indrayam.com/" aria-current="page">Writings</a></li>
+    </ul>
+  </nav>
+  <nav class="blog-subnav" aria-label="Blog archive">
+    <ul>
+      <li><a href="/">By Year</a></li>
+      <li><a href="/archives/categories.html">By Category</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
 
@@ -57,13 +63,12 @@
 			
 
         
-                        <div class="post" id="post-307">
-  
-                                <h2><a href="/archives/services-and-software/000307.html" rel="bookmark" title="Permanent link to Know thy open sockets: My favorite netstat option">Know thy open sockets: My favorite netstat option</a></h2>
-                                
-                                <p class="post-dateline">Posted : June 22, 2004 at 5:59 pm [America/Los_Angeles]</p>
-                                
-                                <pre>
+                        <article class="post" id="post-307">
+<header class="page-masthead post-masthead">
+    <h1 class="page-masthead-name">Know thy open sockets: My favorite netstat option</h1>
+    <p class="post-date"><time class="post-date-day" datetime="2004-06-22T17:59-07:00">Tuesday, June 22, 2004</time><span class="post-date-time">5:59 PM PDT</span></p>
+</header>
+<pre>
 [root@wwwin-as asdeploy]# netstat -pln
 Active Internet connections (only servers)
 Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
@@ -99,18 +104,8 @@ This tells you all open sockets (TCP, UDP and Unix sockets) that your server is 
 3. If the alignment of this page is slightly messed up, you&#8217;re <a href="/archives/application-development/000277.html" target="_blank">using</a> IE and I really am tired of IE&#8217;s inconsistent CSS standards support. Try switching to <a href="http://www.mozilla.org/products/firefox/" target="_blank">Firefox</a>. PLLEAAASSSEE <img src="/images/wink.gif" align="middle" alt="" aria-hidden="true" loading="lazy" decoding="async">
 </div>
                                 <p>- Anand</p>
-                                
-                                <p class="postlinks">
-                                Category: <b><a href="http://indrayam.com/archives/category/services-and-software/" title="View all posts in Services and Software" rel="category tag">Services and Software</a></b>
-</p>
-                                
-                                <div align="right">
-                                <p></p>
-                                <font size=-2 color="#000000">Viewed: <b>1112</b> times</font>
-                                </div>
-
-
-                        </div>
+<p class="postlinks">Filed under <a href="/archives/categories.html#services-and-software" rel="tag">Services and Software</a></p>
+</article>
 
 		        
 <!-- You can start editing here. -->
@@ -119,7 +114,6 @@ This tells you all open sockets (TCP, UDP and Unix sockets) that your server is 
 
 				
 	
-<p></p>
 </main>
 <footer class="copyright">
 	<a href="https://creativecommons.org/licenses/by-nd-nc/1.0/">Copyright</a> &copy; 2026 Anand Sharma. <a href="/disclaimer.html">Disclaimer</a>

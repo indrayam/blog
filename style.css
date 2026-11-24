@@ -332,6 +332,26 @@ blockquote cite a {
 	margin: 0;
 }
 
+/* Stands in for an embedded player or image that no longer exists. */
+.archival-note.media-placeholder {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 400px;
+	aspect-ratio: 16 / 9;
+	margin: 0.4em auto 0.6em;
+	padding: 1.5em;
+	border: 1px dashed var(--color-rule);
+	background: #faf8f6;
+}
+
+.media-caption {
+	text-align: center;
+	font-size: 0.9em;
+}
+
 pre {
 	max-width: 100%;
 	margin: 1.4rem 0;
